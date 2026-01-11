@@ -1,0 +1,6 @@
+0 Fresh Apple
+1 Rotton Apple
+2 Fresh Mango
+3 Rottom Mango
+4 Fresh Orange
+5 Rotton Orange
