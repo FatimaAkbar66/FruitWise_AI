@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:background="@drawable/glass_card"
+        android:orientation="vertical"
+        android:padding="35dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/onboardIllustration"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/onboardTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Quality Check"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/onboardDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Easily detect if your fruits are fresh or rotten using AI scan."
+            android:textColor="#E0FFFFFF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Next"
+        android:textColor="#FF6B45"
+        android:textStyle="bold" />
+
+</RelativeLayout>
