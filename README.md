@@ -1,4 +1,4 @@
-# FruitWise AI 🍎🥭🍊
+# FruitWise AI 
 
 FruitWise AI is a professional Android application that uses Artificial Intelligence to detect the freshness of fruits. It can classify whether an **Apple, Mango, or Orange** is **Fresh** or **Rotten** in real-time.
 
